@@ -6,6 +6,8 @@
 - NPM version: 6.14.4
 - Yarn version: 1.22.4
 
+原仓库为位于 Gitee 的私有仓库，由于提交内容包含敏感信息未直接进行仓库迁移
+
 ## Project setup
 
 ```bash
