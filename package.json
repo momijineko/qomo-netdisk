@@ -1,0 +1,62 @@
+{
+  "name": "qomo-netdisk",
+  "version": "0.1.0",
+  "homepage": "https://gitee.com/momijineko/qomo-netdisk",
+  "author": {
+    "name": "momijineko",
+    "email": "kouyouneko39@gmail.com",
+    "url": "http://momijineko@github.io"
+  },
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve --no-sandbox",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "start": "vue-cli-service serve"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@dropb/diskinfo": "^2.0.0",
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "date-format": "^3.0.0",
+    "del": "^5.1.0",
+    "download": "^8.0.0",
+    "form-data": "^3.0.0",
+    "iconv-lite": "^0.6.0",
+    "jschardet": "^2.1.1",
+    "lowdb": "^1.0.0",
+    "promise-ftp": "^1.3.5",
+    "qs": "^6.9.4",
+    "request": "^2.88.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.1.3",
+    "webdav": "^3.3.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.3.45",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-plugin-vuex": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "electron": "6.0.0",
+    "electron-chromedriver": "^8.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-electron-builder": "~1.4.6",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  }
+}
